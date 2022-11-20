@@ -1,0 +1,2 @@
+- geolocation for the homepage
+- microphone search
