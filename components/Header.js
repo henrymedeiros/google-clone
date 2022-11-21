@@ -22,12 +22,14 @@ function Header() {
           src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           height={40}
           width={120}
+          alt="Google Logo"
           onClick={() => router.push("/")}
           className="cursor-pointer"
         ></Image>
         <form className="flex flex-grow max-w-3xl px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg justify-center space-x-3">
           <input
             ref={searchInputRef}
+            value={router.query.term}
             type="text"
             className="flex-grow w-full focus:outline-none"
           />

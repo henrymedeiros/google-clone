@@ -4,10 +4,10 @@ import Header from "../components/Header";
 import DummyData from "../DummyData";
 import { useRouter } from "next/router";
 import SearchResults from "../components/SearchResults";
+import PaginationButtons from "../components/PaginationButtons";
 
 function Search({ results }) {
   const router = useRouter();
-  console.log(results);
   return (
     <div>
       <Head>
@@ -17,6 +17,7 @@ function Search({ results }) {
       <Header></Header>
       {/* Search Results */}
       <SearchResults results={results}></SearchResults>
+      <PaginationButtons></PaginationButtons>
     </div>
   );
 }
@@ -24,7 +25,7 @@ function Search({ results }) {
 export default Search;
 
 export async function getServerSideProps(context) {
-  const useDummyData = true;
+  const useDummyData = false;
 
   const startIndex = context.query.start || "0";
 

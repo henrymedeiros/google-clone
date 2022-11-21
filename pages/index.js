@@ -54,6 +54,7 @@ export default function Home() {
             src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
             width={300}
             height={100}
+            alt="Google Logo"
           ></Image>
           <div className="flex w-full mt-5 max-w-md rounded-full border border-gray-200 px-5 py-3 items-center hover:shadow-lg focus-within:shadow-lg sm:max-w-xl lg:max-w-2xl">
             <SearchIcon className="h-5 mr-3 text-gray-500 "></SearchIcon>
@@ -77,4 +78,18 @@ export default function Home() {
       <Footer></Footer>
     </div>
   );
+}
+
+export async function getServerSideProps(context) {
+  fetch("https://extreme-ip-lookup.com/json/")
+    .then((res) => res.json())
+    .then((response) => {
+      console.log("Country: ", response.country);
+    })
+    .catch((data, status) => {
+      console.log("Request failed");
+    });
+  return {
+    props: {},
+  };
 }
