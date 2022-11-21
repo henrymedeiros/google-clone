@@ -1,2 +1,3 @@
 - geolocation for the homepage
 - microphone search
+- image search page?
