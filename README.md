@@ -5,7 +5,7 @@
 <hr>
 <h2 align='center'><a href="https://google-clone-henrymedeiros.vercel.app/">Visite o projeto clicando aqui</a></h2>
 <h2>:green_circle: Sobre:</h2>
-  <h3>:dividers: O projeto:</h3>
+  <h3>:bulb: O projeto:</h3>
     <ul>
       <li><p>Um desafio pessoal com intuito de treinar a habilidade de "clonar" layouts e suas funcionalidades básicas.</p></li>
       <li><p>Utiliza tecnologias modernas como <code>Next.js</code> e <code>Tailwind</code>. </p></li>
