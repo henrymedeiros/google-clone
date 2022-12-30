@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align='center'>Google Clone</h1>
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+<img src="https://i.imgur.com/AN8V0o4.jpeg" alt='projectBanner'>
+<hr>
+<h2 align='center'><a href="https://google-clone-henrymedeiros.vercel.app/">Visite o projeto clicando aqui</a></h2>
+<h2>:green_circle: Sobre:</h2>
+  <h3>:dividers: O projeto:</h3>
+    <ul>
+      <li><p>Um desafio pessoal com intuito de treinar a habilidade de "clonar" layouts e suas funcionalidades básicas.</p></li>
+      <li><p>Utiliza tecnologias modernas como <code>Next.js</code> e <code>Tailwind</code>. </p></li>
+    </ul>
+  <h3>:pushpin: Objetivos:</h3>
+  <ul>
+    <li><p>Tive como principal objetivo desenvolver um layout front-end responsivo praticamente idêntico ao utilizado pelo site da Google e também replicar algumas de suas funcionalidades básicas. (Busca de termos) </p></li>
+    <li><p>Para atingir o layout final, utilizei o Chrome Dev Tools para inspencionar o layout da página principal e entender quais eram as dinâmicas de estilização utilizadas.</p></li>
+    <li><p>Para replicar as funcionalidades, utilizei a Custom Search JSON API para gerar os resultados a partir do termo de busca digitado.</p></li>
+  </ul>
+ 
+<h2>:desktop: Linguagens e ferramentas:</h2>
+<ul>
+   <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width=25 /> React</li>
+  <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width=25/>
+           Tailwind CSS</li>
+  <li>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width=24/>
+           Next.js</li>
+  
+</ul>
+</ul>
+<br>
