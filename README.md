@@ -17,7 +17,7 @@
     <li><p>Para replicar as funcionalidades, utilizei a Custom Search JSON API para gerar os resultados a partir do termo de busca digitado.</p></li>
   </ul>
  
-<h2>:desktop: Linguagens e ferramentas:</h2>
+<h2>:computer: Linguagens e ferramentas:</h2>
 <ul>
    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width=25 /> React</li>
   <li>
